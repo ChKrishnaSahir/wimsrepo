@@ -1,0 +1,10 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'this is 2019wa86487 for SCM fro Git' 
+            }
+        }
+    }
+}
